@@ -21,7 +21,7 @@ class StringLinkedList {                        // Class linked list of strings
         bool empty() const;                     // is list empty
         const std::string& front() const;       // get front element
         void addFront( const std::string& e);   // add to front of list
-        void removeFront();                        // remove front item list
+        void removeFront();                     // remove front item list
         void showAll();                    
 };
 
